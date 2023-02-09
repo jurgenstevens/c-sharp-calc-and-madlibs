@@ -11,14 +11,10 @@ namespace CalcAndMadLibs
 
         static void Main(string[] args)
         {
-            // using the data type: double will allow you to use ints and decimals
-            Console.Write("Enter a number: ");
-            double num1 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Roses are {color}");
+            Console.WriteLine("{plural noun} are blue");
+            Console.WriteLine("I love {celebrity}");
 
-            Console.Write("Enter another number: ");
-            double num2 = Convert.ToDouble(Console.ReadLine());
-
-            Console.WriteLine(num1 + num2);
             Console.ReadLine();
         }
     }
